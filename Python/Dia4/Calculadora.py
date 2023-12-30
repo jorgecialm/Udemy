@@ -1,0 +1,5 @@
+print("Calculadora de Ahorro")
+montoAhorrar=int(input("ingrese el monto que quiere ahorrar :"))
+cuota=int(input("ingrese la cantidad de dinero que puede ahorrar por mes : "))
+Meses= round(montoAhorrar/cuota)
+print(f"Tardara en ahorrar : {Meses}")
